@@ -1,6 +1,7 @@
 
 .top-bg{
     background-color: #F0FFF0;
+    padding-bottom: 40px;
 }
 .navbar-nav .nav-item .sign-in {
     background-color: #21B573;
@@ -83,4 +84,23 @@ P{
     line-height: 120%;
     color: #FFFFFF;
     margin-top: .5rem;
+}
+.stats-card {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+    background: #f8fdfa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.stats-card img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+.stats-card:hover {
+    background: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.stat-section .col-md-3{
+    margin-top: -0px;
 }
